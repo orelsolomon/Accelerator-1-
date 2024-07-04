@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Plant Details</h1>
+    <div class="plant-image-container">
+      <img src="plant-image.jpg" alt="Plant Image" class="plant-image">
+    </div>
+    <form id="plantForm" onsubmit="return validateForm()" method="POST" action="addPlant.php">
+      <div class="form-group">
+        <label for="full_name">Your name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+      </div>
+      <div class="form-group">
+        <label for="family_fk">Your Plant Family:</label>
+        <select id="family_fk" name="family_fk" required>
+          <option value="">Select Plant Family</option>
+          <option value="tropical">Tropical plants</option>
+          <option value="Cactus">Cactus</option>
+          <option value="house plants">House plants</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="city">Your City:</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+  <script src="addplantJS.js"></script>
+</body>
+</html>

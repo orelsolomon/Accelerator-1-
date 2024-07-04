@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green color for the title */
+  }
+  
+  .plant-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .plant-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select { /* Added select styling */
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Decoration Styles */
+  .decoration-top,
+  .decoration-bottom {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #4CAF50;
+    border-radius: 0 0 8px 8px;
+    z-index: -1;
+  }
+  
+  .decoration-top {
+    top: -50px;
+  }
+  
+  .decoration-bottom {
+    bottom: -50px;
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  
+  ---------------------
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #E7F4E5; /* Subtle green background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .decorative-circle {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #9BD2B5; /* Light green circle */
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  h1 {
+    color: #4CAF50; /* Green header */
+    margin-bottom: 20px; /* Added margin below the header */
+  }
+  
+  .plant-image {
+    margin-top: 20px;
+    width: 200px; /* Adjust width as needed */
+    border-radius: 8px;
+  }
+  
+  p {
+    margin-bottom: 20px; /* Added margin below the paragraph */
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px 36px; /* Increased padding for a bigger button */
+    background-color: #4CAF50; /* Green button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px; /* Increased border-radius for a rounded button */
+    border: 2px solid #357b36; /* Darker border */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-size: 18px; /* Increased font size for better visibility */
+  }
+  
+  .btn:hover {
+    background-position: 0px -5px; /* Move the gradient up slightly on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  }
+  
+  :-------------
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .welcome-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #E7F4E5; /* Subtle green background */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  h1 {
+    color: #4CAF50; /* Green header */
+    margin-bottom: 20px; /* Added margin below the header */
+  }
+  
+  p {
+    margin-bottom: 20px; /* Added margin below the paragraph */
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px 36px; /* Increased padding for a bigger button */
+    background-color: #4CAF50; /* Green button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px; /* Increased border-radius for a rounded button */
+    border: 2px solid #357b36; /* Darker border */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-size: 18px; /* Increased font size for better visibility */
+  }
+  
+  .btn:hover {
+    background-position: 0px -5px; /* Move the gradient up slightly on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  }
+  
+ 
+.bottom-image {
+  margin-top: 20px; /* Adjust margin as needed */
+  width: 20%; /* Adjust the width as a percentage for responsiveness */
+  max-width: 600px; /* Set a maximum width for larger screens */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+  
